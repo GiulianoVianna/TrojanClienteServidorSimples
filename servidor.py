@@ -2,8 +2,8 @@ import os
 import socket
 import shlex
 
-server_host = '127.0.0.1'
-server_port = 12345
+server_host = '127.0.0.1' #Endereço IP
+server_port = 12345       #Porta
 
 def send_file(client_socket, file_path):
     try:
